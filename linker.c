@@ -1,31 +1,3 @@
-/*
-
-Läs objektfiler
-
-	- Extrahera sektioner .text och .data.
-	- Läs symboltabeller.
-	- Läs relocationtabeller.
-
-Samla symboler
-
-	- Skapa en global symboltabell.
-	- Kontrollera dubletter och saknade symboler.
-
-Beräkna adresser
-
-	- Tilldela varje sektion en startadress i flash/RAM
-	- Uppdatera symboltabellen med faktiska adresser.
-
-Utför relocation
-
-	- Ändra instruktioner i .text som refererar till andra symboler.
-
-Skriv ut körbar fil
-
-	- Skapa en binär fil (.bin) eller ELF med korrekt header.
-
-*/
-
 #include <stdio.h>
 #include "validate_objfile.h"
 #include <elf.h>

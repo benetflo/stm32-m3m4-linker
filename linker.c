@@ -1,13 +1,13 @@
 #include <stdio.h>
-#include "validate_objfile.h"
+#include "elf_parser.h"
 #include <elf.h>
 #include <stdlib.h>
 
 int main(int argc, char * argv[])
 {
 
-	Elf64_Ehdr elf_header;
-	Elf64_Shdr * section_header;
+	Elf32_Ehdr elf_header;
+	Elf32_Shdr * section_header;
 	char * section_names;
 
 	if (argc > 1)

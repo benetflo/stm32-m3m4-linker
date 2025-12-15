@@ -1,0 +1,9 @@
+MEMORY
+FLASH 0x08000000 256K
+RAM   0x20000000 64K
+
+SECTIONS
+.text   FLASH
+.rodata FLASH
+.data   RAM
+.bss    RAM

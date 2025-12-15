@@ -1,1 +1,1 @@
-# linux-x86_64-linker
+# stm32-m3m4-linker

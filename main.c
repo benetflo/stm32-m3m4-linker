@@ -1,11 +1,11 @@
-#include "elf_parser.h"
-#include "linker.h"
-
 #include <elf.h>
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#include "elf_parser.h"
+#include "linker.h"
 
 int main(int argc, char **argv)
 {

@@ -1,5 +1,5 @@
-// linker_layout.h
 #pragma once
+
 #include <stdint.h>
 #include <elf.h>
 #include <stdbool.h>
